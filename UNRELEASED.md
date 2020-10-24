@@ -12,6 +12,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 
 ### Bug fixes
 
+- OnClick handling now functions for SubNavigationItem
+
 ### Documentation
 
 ### Development workflow

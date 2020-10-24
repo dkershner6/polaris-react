@@ -343,7 +343,7 @@ export function TextField({
   );
 
   const spinnerMarkup =
-    type === 'number' && !disabled && !readOnly ? (
+    type === 'number' && step !== 0 && !disabled && !readOnly ? (
       <Spinner
         onChange={handleNumberChange}
         onMouseDown={handleButtonPress}
